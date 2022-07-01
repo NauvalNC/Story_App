@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name" translatable="false">Story App</string>
+
+    <string name="name">Name</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+
+    <string name="home" translatable="false">Home</string>
+    <string name="story_details">Story Details</string>
+    <string name="setting">Settings</string>
+    <string name="language">Language</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="add_new_story">Add New Story</string>
+
+    <string name="story_image">Story Image</string>
+    <string name="account_image">Account Image</string>
+    <string name="icon_image">App Icon Image</string>
+
+    <string name="login" translatable="false">Login</string>
+    <string name="register">Register</string>
+    <string name="create_an_account">Create an Account</string>
+
+    <string name="not_have_account">Don\'t have an account?</string>
+    <string name="have_an_account">Already have an account?</string>
+    <string name="field_cannot_empty">Fields cannot be empty</string>
+    <string name="load_failed">Failed to load data. Please check your network</string>
+    <string name="not_found">Data Not Found</string>
+
+    <string name="login_success">Login success</string>
+    <string name="login_failed">Login failed. Please check your network and credentials</string>
+
+    <string name="upload_success">Upload story success</string>
+    <string name="upload_failed">Filed to upload story. Please check your network</string>
+
+    <string name="register_success">Register success. Please login</string>
+    <string name="register_failed">Register failed. Network error or similar account may already existed</string>
+
+    <string name="description_hint">Description here</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="choose_image">Choose an Image</string>
+    <string name="camera_failed">Failed to operate camera</string>
+    <string name="permission_denied">Permission denied</string>
+
+    <string name="switch_camera">Switch Camera</string>
+    <string name="capture_image">Capture Image</string>
+
+    <string name="refresh_story">Refresh Story</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_data">No data</string>
+    <string name="story_widget_desc">Widget to display stories</string>
+
+    <string name="refreshing">Refreshing</string>
+
+    <string name="date" translatable="false">dd MMM yyyy | HH:mm</string>
+    <string name="view_on_map">View Location</string>
+
+    <string name="location_failure">Cannot retrieve location. Please check your connection and make sure GPS is enabled.</string>
+    <string name="unknown_failure">Unknown failure has occurred. Please try again.</string>
+
+    <string name="title_activity_story_details_with_map" translatable="false">Story Details Activity with Map</string>
+    <string name="no_location">No Location</string>
+    <string name="centralize">Centralize</string>
+
+    <string name="style_failure">Cannot apply style</string>
+
+    <string name="nav_story">Story</string>
+    <string name="nav_map">Story Map</string>
+
+    <string name="view_details">View Details</string>
+    <string name="no_marker">No available story marker on the map.</string>
+
+    <string name="retry">Retry</string>
+
+    <string name="invalid_email">Invalid email format</string>
+    <string name="invalid_password">Password must be at least %1$d characters</string>
+
+    <string name="upload_image_null">No image to upload</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy_200">#FF6998AB</color>
+    <color name="navy_500">#FF406882</color>
+    <color name="navy_700">#FF1A374D</color>
+
+    <color name="accent_1">#FF406882</color>
+    <color name="accent_2">#FF6998AB</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="smooth">#FFB1D0E0</color>
+    <color name="gray">#FFF4F4F2</color>
+
+    <color name="warning">#FF0000</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Binus Documents/Semester 6/S3_StoryApp/_Final Proof/202204192348462a4506bed8571483d589af346f20af0f/StoryApp/app/src/main/res/layout/activity_login.xml" value="0.19166666666666668" />
+        <entry key="..\:/BinusDocuments/Semester6/S3_StoryApp/_Final Proof/202204192348462a4506bed8571483d589af346f20af0f/StoryApp/app/src/main/res/layout/activity_camera.xml" value="0.20425724637681159" />
+        <entry key="..\:/BinusDocuments/Semester6/S3_StoryApp/_Final Proof/202204192348462a4506bed8571483d589af346f20af0f/StoryApp/app/src/main/res/layout/activity_main_landing_page.xml" value="0.18059777102330293" />
+        <entry key="..\:/BinusDocuments/Semester6/S3_StoryApp/_Final Proof/202204192348462a4506bed8571483d589af346f20af0f/StoryApp/app/src/main/res/layout/fragment_story_map_list.xml" value="0.18085106382978725" />
+        <entry key="..\:/BinusDocuments/Semester6/S3_StoryApp/_Final Proof/202204192348462a4506bed8571483d589af346f20af0f/StoryApp/app/src/main/res/layout/story_item.xml" value="0.18059777102330293" />
+        <entry key="..\:/BinusDocuments/Semester6/S3_StoryApp/_Final Proof/202204192348462a4506bed8571483d589af346f20af0f/StoryApp/app/src/main/res/xml/setting_preference.xml" value="0.20425724637681159" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

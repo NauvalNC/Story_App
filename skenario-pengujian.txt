@@ -1,0 +1,81 @@
+UserLoginViewModelTest.kt = Unit Test untuk UserLoginViewModel
+a. Ketika berhasil login: 1) callback response harus sukses, 2) isError harus false
+b. Ketika gagal login: 1) callback response harus gagal (false), 2) isError harus true
+c. Ketika gagal login karena exception: 1) isError harus true
+
+UserRegisterViewModelTest.kt = Unit Test untuk UserRegisterViewModel
+a. Ketika berhasil register: 1) callback response harus sukses, 2) isError harus false
+b. Ketika gagal register: 1) callback response harus gagal (false), 2) isError harus true
+c. Ketika gagal register karena exception: 1) isError harus true
+
+StoryBusinessViewModelTest.kt = Unit Test untuk StoryBusinessViewModel
+a. Ketika getStoriesWithLocation sukses: 1) callback response harus sukses, 2) data tidak null, 3) data harus sesuai harapan, 4) isError harus false
+b. Ketika getStoriesWithLocation gagal: 1) callback response harus gagal (false), 2) isError harus true
+c. Ketika getStoriesWithLocation gagal karena exception: 1) isError harus true
+d. Ketika uploadStory sukses: 1) callback response harus sukses, 2) isError harus false
+d. Ketika uploadStory gagal: 1) callback response harus gagal (false), 2) isError harus true
+d. Ketika uploadStory gagal karena exception: 1) isError harus true
+
+StoryMediatorViewModelTest.kt = Unit Test untuk StoryMediatorViewModel
+a. Ketika mengambil storyList sukses, maka:
+    1) data tidak null
+    2) data harus sesuai harapan
+b. Ketika mengambil storyList gagal, maka data yang dikembalikan empty karena database di room akan empty:
+    1) data tidak null
+    2) data empty
+
+UserRepositoryTest.kt = Unit Test untuk UserRepository
+a. Ketika loginUser sukses, maka: 1) callback response sukses, 2) data body response tidak null, 3) data body response harus sesuai harapan
+b. Ketika loginUser gagal, maka: 1) callback response gagal (false), 2) data body response null
+c. Ketika registerUser sukses, maka: 1) callback response sukses, 2) data body response tidak null, 3) data body response harus sesuai harapan
+d. Ketika registerUser gagal, maka: 1) callback response gagal (false), 2) data body response null
+
+StoryBusinessRepositoryTest.kt = Unit Test untuk StoryBusinessRepository
+a. Ketika uploadStory sukses, maka: 1) callback response sukses, 2) data body response tidak null, 3) data body response harus sesuai harapan
+b. Ketika uploadStory gagal, maka: 1) callback response gagal (false), 2) data body response null
+c. Ketika getStoriesWithLocation sukses, maka: 1) callback response sukses, 2) data body response tidak null, 3) data body response harus sesuai harapan
+d. Ketika getStoriesWithLocation gagal, maka: 1) callback response gagal (false), 2) data body response null
+
+StoryRepositoryTest.kt = Unit Test untuk StoryRepository
+a. Ketika getStories dilakukan, maka harus mengembalikan non-null data, karena worst scenario adalah room database empty: 1) data tidak null
+
+StoryListFragmentTest.kt = Integration Test untuk mengecek halaman list story/daftar cerita (StoryListFragment)
+a. getStoryList_Success
+    1) Menampilkan (StoryListFragment)
+    2) Menampilkan list story
+    3) Pada list harus ada data yang sesuai dengan data uji coba (dummyUsername)
+b. getStoryList_Failed
+    1) Menampilkan (StoryListFragment)
+    2) Menampilkan list story
+    3) List seharusnya empty dan muncul tampilan no data
+
+MainEndToEndTest.kt = End-to-end Test untuk mengecek fungsionalitas umum aplikasi
+a. loginThenLogout
+    1) Menampilkan activity login, kemudian melakukan login
+    2) Masuk ke tampilan MainLandingPageActivity, kemudian klik menu setting
+    3) Pada tampilan Setting, klik tombol logout
+    4) Kilik yes pada konfirmasi logout
+    5) Menampilkan activity login kembali
+b. loadStoryListMap
+    1) Menampilkan activity login, kemudian melakukan login
+    2) Masuk ke tampilan MainLandingPageActivity
+    3) Cek apakah map untuk menampilkan story list sudah ditampilkan
+c. loadStoryList
+    1) Menampilkan activity login, kemudian melakukan login
+    2) Masuk ke tampilan MainLandingPageActivity
+    3) Klik tombol bottom navigasi untuk ke story list
+    4) Masuk ke tampilan StoryListFragment
+    5) Cek apakah recycle view untuk menampilkan story list sudah ditampilkan
+d. loadStoryDetail
+    1) Menampilkan activity login, kemudian melakukan login
+    2) Masuk ke tampilan MainLandingPageActivity
+    3) Klik tombol bottom navigasi untuk ke story list
+    4) Masuk ke tampilan StoryListFragment
+    5) Cek apakah recycle view untuk menampilkan story list sudah ditampilkan
+    6) Klik pada item pertama
+    7) Masuk ke tampilan StoryDetailsWithMapActivity
+    8) Cek apakah tampilan untuk menampilkan detail story sudah ditampilkan
+
+
+
+

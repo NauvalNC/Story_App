@@ -1,0 +1,75 @@
+<resources>
+    <string name="name">Nama</string>
+    <string name="password">Kata Sandi</string>
+
+    <string name="story_details">Detail Story</string>
+    <string name="setting">Pengaturan</string>
+    <string name="language">Bahasa</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="add_new_story">Tambah Story Baru</string>
+
+    <string name="story_image">Gambar Story</string>
+    <string name="account_image">Gambar Akun</string>
+    <string name="icon_image">Gambar Ikon Aplikasi</string>
+
+    <string name="register">Buat Akun</string>
+    <string name="create_an_account">Buat Akun Baru</string>
+
+    <string name="not_have_account">Tidak punya akun?</string>
+    <string name="have_an_account">Sudah punya akun?</string>
+    <string name="field_cannot_empty">Isian tidak boleh kosong</string>
+    <string name="load_failed">Gagal memuat data. Mohon cek internet Anda</string>
+    <string name="not_found">Data Tidak Ditemukan</string>
+
+    <string name="login_success">Login berhasil</string>
+    <string name="login_failed">Login gagal. Cek kembali internet dan inputan</string>
+
+    <string name="upload_success">Unggah story berhasil</string>
+    <string name="upload_failed">Gagal mengunggah story. Mohon cek internet Anda</string>
+
+    <string name="register_success">Akun berhasil dibuat. Silahkan login</string>
+    <string name="register_failed">Akun gagal dibuat. Kesalahan internet atau akun yang sama mungkin sudah ada</string>
+
+    <string name="description_hint">Deskripsi tertulis disini</string>
+    <string name="are_you_sure">Apakah Anda yakin?</string>
+    <string name="yes">Iya</string>
+    <string name="no">Tidak</string>
+
+    <string name="choose_image">Pilih Gambar</string>
+    <string name="camera_failed">Gagal mengoperasikan kamera</string>
+    <string name="permission_denied">Perizinan ditolak</string>
+
+    <string name="switch_camera">Ganti Kamera</string>
+    <string name="capture_image">Ambil Gambar</string>
+
+    <string name="refresh_story">Perbarui Story</string>
+    <string name="refresh">Perbarui</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="story_widget_desc">Widget untuk menampilkan daftar story</string>
+
+    <string name="refreshing">Menyegarkan</string>
+
+    <string name="view_on_map">Lihat Lokasi</string>
+
+    <string name="location_failure">Tidak bisa mengambil lokasi. Cek internet dan GPS Anda.</string>
+    <string name="unknown_failure">Terjadi kesalahan. Mohon coba kembali.</string>
+    <string name="no_location">Tidak ada lokasi</string>
+    <string name="centralize">Tengahkan</string>
+
+    <string name="style_failure">Tidak bisa menerapkan style</string>
+
+    <string name="nav_story">Story</string>
+    <string name="nav_map">Peta Story</string>
+
+    <string name="view_details">Lihat Detail</string>
+    <string name="no_marker">Tidak ada marker story pada peta.</string>
+
+    <string name="retry">Muat Ulang</string>
+
+    <string name="invalid_email">Format email salah</string>
+    <string name="invalid_password">Kata sandi minimal %1$d karakter</string>
+
+    <string name="upload_image_null">Tidak ada gambar untuk di upload</string>
+</resources>

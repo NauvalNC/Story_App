@@ -1,0 +1,51 @@
+{
+  "error": false,
+  "message": "Stories fetched successfully",
+  "listStory": [
+    {
+      "id": "story-qmWT1t2oCZ3iByRJ",
+      "name": "Yanto",
+      "description": "No Description",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650192621725_hBE7l5hS.jpg",
+      "createdAt": "2022-04-17T10:50:21.728Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-s7bEa4PBBkQL5_TL",
+      "name": "Budiman",
+      "description": "No Description",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650192582918_mD9jswx4.jpg",
+      "createdAt": "2022-04-17T10:49:42.922Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-xpdxG6epg-VGj3E3",
+      "name": "Ajeng",
+      "description": "No Description",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650192563117_q7ZzAlww.jpg",
+      "createdAt": "2022-04-17T10:49:23.122Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-jwixT-T3F0LZtGAR",
+      "name": "gege",
+      "description": "Ini adalah deksripsi gambar",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650192553581_9RJ4qph0.jpg",
+      "createdAt": "2022-04-17T10:49:13.583Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-YcRzQwNmwUyh6kTp",
+      "name": "aglonema",
+      "description": "Ini adalah deksripsi gambar",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650192395832_cUIipvVK.jpg",
+      "createdAt": "2022-04-17T10:46:35.833Z",
+      "lat": null,
+      "lon": null
+    }
+  ]
+}
